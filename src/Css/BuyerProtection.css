@@ -1,0 +1,74 @@
+.buyer-protection {
+    margin-top: var(--section-margin);
+}
+
+.buyer-protection .my-container {
+    height: 448px;
+}
+
+.buyer-protection .my-container .content {
+    background-color: #03181c !important;
+    color: white;
+    padding: 50px 50px 50px 35px;
+    border-radius: 7px 0 0 7px;
+    flex-basis: 50%;
+}
+.buyer-protection .my-container .content h2 {
+    font-size: 25px;
+}
+.buyer-protection .my-container .content ul {
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+}
+.buyer-protection .my-container .content ul li :first-child {
+    margin-right: 10px;
+    font-size: 22px;
+    color: #00ff73;
+}
+
+.buyer-protection .my-container .content a {
+    display: block;
+    width: fit-content;
+    padding: 10px 45px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+    text-align: center;
+}
+.buyer-protection .my-container .image {
+    height: inherit;
+    flex-basis: 50%;
+    height: inherit;
+    background-image: url("../images/buyer-protection-teaser-md.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 992px) {
+    .buyer-protection .my-container {
+        height: 414.4px;
+    }
+    .buyer-protection .my-container .content {
+        padding: 35px 25px 35px 25px;
+    }
+
+    .buyer-protection .my-container .content h2 {
+        font-size: 22px;
+    }
+    .buyer-protection .my-container .content a {
+        padding: 10px 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .buyer-protection .my-container {
+        flex-direction: column-reverse;
+    }
+    .buyer-protection .my-container .content {
+        width: 100%;
+    }
+
+    .buyer-protection .my-container .image {
+        display: none;
+    }
+}

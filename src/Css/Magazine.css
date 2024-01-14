@@ -1,0 +1,57 @@
+.magazine {
+    margin-top: var(--section-margin);
+}
+.magazine .my-container > div {
+    display: flex;
+    /* align-items: center; */
+    gap: 40px;
+}
+
+.magazine .my-container > div .box {
+    flex-basis: calc(50%);
+}
+@media (max-width: 992px) {
+    .magazine .my-container > div .box h3 {
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .magazine .my-container > div {
+        flex-direction: column;
+    }
+}
+
+.magazine .my-container > div .box img {
+    max-width: 100%;
+}
+
+.magazine .my-container > div .box h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.magazine .my-container > div .box p {
+    font-size: 15px;
+}
+
+.magazine .my-container > div .box .box-info div img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.magazine .my-container > div .box .box-info div {
+    display: flex;
+    align-items: center;
+}
+
+.magazine .my-container > div .box .box-info div i {
+    font-size: 17px;
+    margin-right: 5px;
+    vertical-align: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

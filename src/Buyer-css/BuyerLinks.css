@@ -1,0 +1,69 @@
+.buyer-links {
+    margin-top: 60px;
+}
+.buyer-links .my-container {
+}
+
+.buyer-links .my-container .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 34px;
+}
+.buyer-links .my-container .header img {
+    width: 90px;
+    height: 80px;
+    margin-right: 15px;
+}
+
+.buyer-links .my-container .row {
+}
+
+.buyer-links .my-container .col-6 {
+    margin-bottom: 24px;
+}
+
+.buyer-links .my-container .box {
+    border: 1px solid #dcdfe0;
+    height: 100%;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.buyer-links .my-container .box img {
+    width: 90px;
+    height: 90px;
+    margin-right: 17px;
+}
+.buyer-links .my-container .box span {
+    font-size: 17px;
+}
+
+@media (max-width: 1260px) {
+    .buyer-links .my-container .box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .buyer-links .my-container .box img {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .buyer-links .my-container .header {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .buyer-links .my-container .header img {
+        margin-bottom: 17px;
+    }
+    .buyer-links .my-container .box img {
+        width: 80px;
+        height: 80px;
+    }
+    .buyer-links .my-container .box span {
+        font-size: 14px;
+    }
+}

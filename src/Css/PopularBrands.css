@@ -1,0 +1,22 @@
+.popular-brands {
+    margin-top: var(--section-margin);
+}
+
+.popular-brands .my-container .brand {
+    background-color: #f6f2ee !important;
+    padding: 15px 25px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.popular-brands .my-container a {
+    background-color: transparent;
+    color: black;
+    padding: 10px 50px;
+    border-radius: 7px;
+    border: 1px solid black;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}

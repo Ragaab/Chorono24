@@ -1,0 +1,50 @@
+.watches .watch {
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.watches h1 {
+    font-size: 35px;
+}
+
+.watches .watch img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+.watches .watch p:first-of-type {
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.watches .watch p:last-of-type {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    margin-bottom: 7px;
+    color: #687477;
+}
+
+.watches .watch span:first-of-type {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.watches .home {
+    cursor: pointer;
+}
+
+.watches .home:hover {
+    color: var(--main-color) !important;
+}
+
+.watches .watch span:last-of-type {
+    display: inline-block;
+    font-size: 13px;
+    color: #687477;
+}
+
+.watches .watch span:last-of-type span {
+    font-size: 10px;
+}

@@ -1,0 +1,123 @@
+.buyer-services {
+    padding-top: 60px;
+}
+.buyer-services .my-container {
+}
+
+.buyer-services .my-container .service {
+    margin: 48px 0;
+    padding: 48px 0;
+}
+
+.buyer-services .my-container .service.normal .text {
+    margin-right: 25px;
+    width: 50%;
+}
+.buyer-services .my-container .service.reverse .text {
+    margin-left: 25px;
+    width: 50%;
+}
+
+.buyer-services .my-container .service .text h2 {
+    font-size: 32px;
+    margin-bottom: 34px;
+}
+
+.buyer-services .my-container .service .text p {
+    font-size: 20px;
+}
+
+.buyer-services .my-container .service.normal img {
+    padding-left: 25px;
+    width: 50%;
+}
+.buyer-services .my-container .service.reverse img {
+    padding-right: 25px;
+    width: 50%;
+}
+
+.buyer-services .my-container .service img:first-of-type {
+    display: block;
+}
+
+.buyer-services .my-container .service img:last-of-type {
+    display: none;
+}
+
+@media (max-width: 1260px) {
+    .buyer-services .my-container .service .text h2 {
+        font-size: 30px;
+    }
+}
+@media (max-width: 992px) {
+    .buyer-services .my-container .service .text h2 {
+        margin-bottom: 24px;
+        font-size: 26px;
+    }
+    .buyer-services .my-container .service .text p {
+        font-size: 17px;
+    }
+}
+@media (max-width: 768px) {
+    .buyer-services .my-container .service.normal {
+        flex-direction: column-reverse;
+    }
+    .buyer-services .my-container .service.reverse {
+        flex-direction: column;
+    }
+    .buyer-services .my-container .service .text {
+        width: 100% !important;
+        margin: 20px 0 0 0 !important;
+    }
+    .buyer-services .my-container .service img:first-of-type {
+        display: none;
+    }
+    .buyer-services .my-container .service img:last-of-type {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+    .buyer-services .my-container .service .text h2 {
+        font-size: 24px;
+    }
+    .buyer-services .my-container .service .text p {
+        font-size: 16px;
+    }
+    .buyer-services .my-container .service {
+        padding: 0;
+    }
+}
+
+.buyer-services .box {
+    text-align: center;
+    border: 1px solid #dcdfe0;
+    height: 100%;
+    padding: 10px;
+}
+
+.buyer-services .row {
+    margin: 100px 0;
+}
+
+.buyer-services .box img {
+    width: 90px;
+    height: 90px;
+}
+
+.buyer-services .box span {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buyer-services .box p {
+    margin: 0;
+    font-size: 15px;
+}
+
+@media (max-width: 1200px) {
+    .buyer-services .col-xl-4 {
+        margin-bottom: 30px;
+    }
+}

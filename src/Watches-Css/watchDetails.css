@@ -1,0 +1,107 @@
+.target-watch {
+}
+
+.target-watch h2 {
+    font-size: 26px;
+}
+.target-watch img {
+    width: 55%;
+    margin-right: 30px;
+}
+.target-watch .watch-info {
+    width: 45%;
+}
+
+.target-watch .home {
+    cursor: pointer;
+    font-size: 18px !important;
+}
+
+.target-watch .home:hover {
+    color: var(--main-color) !important;
+}
+
+.target-watch .links {
+    margin-bottom: 20px;
+}
+
+.target-watch .links a {
+    text-decoration: underline !important;
+    font-size: 12px;
+}
+
+.target-watch .links a:hover {
+    color: var(--main-color) !important;
+}
+
+.target-watch .price {
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.target-watch span:last-of-type {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.target-watch span:last-of-type span {
+    font-size: 12px;
+}
+
+.target-watch .buy {
+    background-color: #23a15c;
+    color: white;
+    padding: 15px;
+    border-radius: 7px;
+    text-align: center;
+    margin: 30px 0 10px 0;
+    font-size: 17px;
+}
+
+.target-watch .suggest {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 15px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.target-watch .shipping-seller {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.seller-rating .star {
+    font-size: 17px;
+    color: var(--main-color);
+}
+
+.seller-rating span:last-of-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.seller-rating span:last-of-type .rating {
+    font-size: 16px;
+}
+
+.seller-rating span:last-of-type .rating span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.target-watch .contact-seller {
+    display: block;
+    margin-top: 30px;
+    font-size: 17px;
+    text-align: center;
+    padding: 15px;
+    color: var(--secondary-color);
+    border-radius: 7px;
+    border: 1px solid var(--secondary-color);
+}

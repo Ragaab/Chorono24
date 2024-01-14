@@ -1,0 +1,123 @@
+.buyer-landing {
+    background-color: var(--secondary-color);
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    overflow: hidden;
+}
+
+.buyer-landing .image {
+    width: 70%;
+    height: 85%;
+}
+
+.buyer-landing .image .landing-img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 1260px) {
+    .buyer-landing .image .landing-img.one {
+        display: block;
+    }
+    .buyer-landing .image .landing-img.two,
+    .buyer-landing .image .landing-img.three,
+    .buyer-landing .image .landing-img.four {
+        display: none;
+    }
+}
+
+@media (max-width: 1260px) {
+    .buyer-landing .image .landing-img.two {
+        display: block;
+    }
+    .buyer-landing .image .landing-img.one,
+    .buyer-landing .image .landing-img.three,
+    .buyer-landing .image .landing-img.four {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .buyer-landing .image .landing-img.three {
+        display: block;
+    }
+    .buyer-landing .image .landing-img.one,
+    .buyer-landing .image .landing-img.two,
+    .buyer-landing .image .landing-img.four {
+        display: none;
+    }
+}
+
+.shield {
+    position: absolute;
+    top: 45px;
+    left: -7px;
+    width: 15%;
+}
+.arrows {
+    position: absolute;
+    bottom: -55px;
+    right: 150px;
+    width: 250px;
+    height: 250px;
+}
+
+.buyer-landing .my-container {
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    right: -10%;
+}
+
+.buyer-landing .my-container .text {
+    position: relative;
+    margin-top: 120px;
+    line-height: 1.2;
+    z-index: 1000;
+}
+.buyer-landing .my-container .text span {
+    display: block;
+    color: white;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.buyer-landing .my-container .text div {
+    color: #23a15c !important;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+@media (max-width: 768px) {
+    .buyer-landing {
+        height: 350px;
+    }
+    .buyer-landing .image .landing-img.four {
+        display: block;
+    }
+    .buyer-landing .image .landing-img.one,
+    .buyer-landing .image .landing-img.two,
+    .buyer-landing .image .landing-img.three {
+        display: none;
+    }
+    .arrows {
+        width: 150px;
+        height: 150px;
+        right: -15px;
+    }
+    .buyer-landing .my-container {
+        right: 0;
+    }
+    .buyer-landing .my-container .text {
+        margin-top: 0px;
+    }
+    .buyer-landing .my-container .text span {
+        font-size: 34px;
+    }
+    .buyer-landing .my-container .text div {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,16 @@
+.popular-models {
+    margin-top: var(--section-margin);
+}
+
+.popular-models .my-container .model {
+    display: block;
+    text-align: center;
+    background-color: #f6f2ee !important;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.popular-models .my-container .model .text p {
+    font-weight: 500;
+    margin: 0;
+}

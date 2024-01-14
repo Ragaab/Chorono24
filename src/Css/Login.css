@@ -1,0 +1,169 @@
+.login {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.login .image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.login .image img {
+    height: 45px;
+}
+
+.login .login-box {
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #dcdfe0 !important;
+    border-radius: 7px;
+}
+
+.login .login-box h1 {
+    margin-bottom: 17px;
+}
+
+.login .login-box .form {
+    margin-bottom: 25px;
+}
+.login .login-box .form label {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.login .login-box .form input {
+    display: block;
+    width: 100%;
+    height: 44px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #dcdfe0;
+    border-radius: 7px;
+}
+
+.login .login-box .login-status {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 34px;
+}
+.login .login-box .login-status .check-box {
+    display: flex;
+    align-items: center;
+}
+
+.login .login-box .login-status .check-box span {
+    padding-left: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.login .login-box .login-status .check-box .box {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 1px solid #dcdfe0;
+}
+.login .login-box .login-status .check-box svg {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.login .login-box .login-status a {
+    color: var(--secondary-color);
+}
+
+.login .login-box .login-submit {
+    background-color: var(--secondary-color);
+    color: white;
+    width: 100%;
+    height: 44px;
+    padding: 10px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .login-box .or {
+    text-align: center;
+    margin: 17px 0;
+}
+
+.login .login-box .or span {
+    position: relative;
+    display: block;
+}
+
+.login .login-box .or span::before,
+.login .login-box .or span::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #dcdfe0;
+    height: 1px;
+    width: 42%;
+}
+
+.login .login-box .or span::before {
+    left: 0;
+}
+
+.login .login-box .or span::after {
+    right: 0;
+}
+
+.login .login-box .options button {
+    display: block;
+    width: 100%;
+    height: 44px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid var(--secondary-color);
+    border-radius: 7px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .login-box .options button img {
+    margin-right: 15px;
+}
+
+.login .login-box .register {
+    margin-top: 25px;
+}
+
+.login .login-box .register a {
+    color: var(--secondary-color);
+    margin-left: 5px;
+}
+
+.login .login-box a:hover {
+    text-decoration: underline !important;
+}
+
+@media (max-width: 768px) {
+    .login {
+        margin-top: 34px;
+    }
+    .login .image img {
+        height: 34px;
+    }
+
+    .login .login-box {
+        border: none !important;
+        padding: 0;
+    }
+
+    .login .login-box h1 {
+        font-size: 30px;
+    }
+    .login .login-box .register {
+        text-align: center;
+    }
+}

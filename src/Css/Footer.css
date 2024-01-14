@@ -1,0 +1,200 @@
+.footer {
+    background-color: #03181c;
+    color: white;
+    padding: 35px;
+    margin-top: var(--section-margin);
+}
+
+.footer .my-container {
+    max-width: 100%;
+}
+
+@media (max-width: 992px) {
+    .footer {
+        padding: 30px 15px 30px 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 30px 0 30px 0;
+    }
+}
+
+.footer .row {
+    margin-bottom: 70px;
+}
+
+.footer .apps-payment {
+    margin-bottom: 50px;
+}
+
+.footer .row .col-lg-4 span {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .footer .row .col-lg-4 span {
+        display: block;
+        margin-top: 50px;
+    }
+}
+
+.footer .row .col-lg-4 ul li {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.footer .row .col-lg-4 ul li a {
+    color: white;
+    transition: var(--transition);
+}
+.footer .row .col-lg-4 ul li a:hover {
+    color: var(--main-color);
+}
+
+@media (max-width: 768px) {
+    .footer .apps-payment .apps a {
+        text-align: center;
+    }
+    .footer .apps-payment .apps div {
+    }
+}
+
+.footer .apps-payment .apps a {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .footer .apps-payment .apps a {
+        /* flex-direction: column; */
+        text-align: center;
+    }
+}
+
+.footer .apps-payment .apps span {
+    font-size: 15px;
+    transition: var(--transition);
+    color: white;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .footer .apps-payment .apps span {
+        display: block;
+    }
+}
+
+.footer .apps-payment .apps span:hover {
+    color: var(--main-color);
+}
+
+.footer .my-container .apps-payment img {
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer .my-container .apps-payment img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
+
+.footer .my-container .apps-payment .apps img:first-of-type {
+    background-color: white;
+}
+
+.footer .apps-payment .apps p {
+    font-size: 17px;
+    font-weight: 600;
+}
+@media (max-width: 768px) {
+    .footer .apps-payment .payment {
+        margin-top: 40px;
+    }
+}
+
+.footer .apps-payment .payment p {
+    font-size: 17px;
+    font-weight: 600;
+}
+.footer .apps-payment .payment i {
+    display: inline-block;
+    width: 53px;
+    height: 34px;
+    background-position: center;
+    background-size: cover;
+    margin-right: 10px;
+}
+.footer .apps-payment .payment i svg {
+    display: none;
+}
+
+.footer .apps-payment .payment i.visa {
+    background-image: url("../images/visa.svg");
+}
+.footer .apps-payment .payment i.master-card {
+    background-image: url("../images/mastercard.svg");
+}
+.footer .apps-payment .payment i.american-express {
+    background-image: url("../images/american-express.svg");
+}
+
+.footer-links ul li {
+    padding: 0;
+}
+
+.footer-links ul li a {
+    color: #687477;
+    font-size: 15px;
+    transition: var(--transition);
+}
+
+.footer-links ul li a:hover {
+    color: var(--main-color);
+}
+
+.footer-links div i {
+    font-size: 22px;
+}
+
+.footer-links div i:not(:first-of-type) {
+    margin-left: 20px;
+}
+
+.footer-links div i a {
+    color: #687477;
+    transition: var(--transition);
+}
+
+.footer-links div i a:hover {
+    color: var(--main-color);
+}
+
+@media (max-width: 768px) {
+    .footer-links {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-links ul {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-links ul {
+        flex-direction: column;
+    }
+
+    .footer-links ul li {
+        margin-bottom: 10px;
+    }
+}

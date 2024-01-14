@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+    .landing .my-container {
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .landing .my-container .row {
+        flex-direction: column-reverse;
+    }
+}
+
+.landing .my-container .text h2 {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .landing .my-container .text {
+        padding: 20px 30px 0 30px;
+    }
+}
+
+.landing .my-container .text a {
+    font-size: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px !important;
+    transition: 0.3s;
+    background-color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+    .landing .my-container .text a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.landing .my-container .text a:hover {
+    color: var(--main-color) !important;
+}
