@@ -13,7 +13,8 @@ function BreitlingDetails({ data: { Breitling } }) {
             <Header />
             <div className="target-watch mt-4 mb-4" key={watch.id}>
                 <div className="my-container d-flex">
-                    <div className="image" style={{ backgroundImage: `url("${watch.imageLarge}")` }}></div>
+                    <img className="image" src={watch.imageLarge} alt="" />
+                    {/* <div className="image" style={{ backgroundImage: `url("${watch.imageLarge}")` }}></div> */}
                     <div className="watch-info">
                         <span className="d-flex align-items-center links">
                             <MdOutlineHome className="home fs-5" /> <MdKeyboardArrowRight className="mx-1" /> <Link className="text-black">Rolex Watches</Link>
