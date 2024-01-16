@@ -1,10 +1,10 @@
 import Logo from "../images/logo-positive-reduced.svg";
-import { IoStarOutline } from "react-icons/io5";
 import { FaRegUser } from "react-icons/fa";
 import { RiArrowDownSLine } from "react-icons/ri";
 import { LuPhone } from "react-icons/lu";
 import { useState } from "react";
-import Carousel from "react-bootstrap/Carousel";
+import { SlArrowRight } from "react-icons/sl";
+import { SlArrowLeft } from "react-icons/sl";
 import "../Css/Header.css";
 import "../Css/Global.css";
 import { Link } from "react-router-dom";
@@ -38,120 +38,51 @@ function Header() {
                         </div>
                     </div>
                     <input className="w-100" type="text" placeholder="Search through 566,990 watches from 127 countries" />
-                    <Carousel interval={1000000} className="seconde-links mb-4 position-relative">
-                        <Carousel.Item>
-                            <div className="text-center position-relative">
-                                <Link
-                                    className="text-black me-2"
-                                    to="/#"
-                                    onClick={() => {
-                                        setLinks(!links);
-                                    }}
-                                >
-                                    Buy a Watch<i>{<RiArrowDownSLine />}</i>
-                                </Link>
-                                <Link to="/watch-collection" className="text-black me-3">
-                                    Watch Collection
-                                </Link>
-                                <Link className="text-black" to="/#">
-                                    Magazine
-                                </Link>
+                    <div id="carouselExample" className="carousel slide seconde-links">
+                        <div className="carousel-inner">
+                            <div className="carousel-item active">
+                                <div className="text-center position-relative">
+                                    <Link
+                                        className="text-black me-4"
+                                        to=""
+                                        onClick={() => {
+                                            setLinks(!links);
+                                        }}
+                                    >
+                                        Buy a Watch<i>{<RiArrowDownSLine />}</i>
+                                    </Link>
+                                    <Link to="/watch-collection" className="text-black">
+                                        Watch Collection
+                                    </Link>
+                                </div>
                             </div>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <div className="text-center">
-                                <Link className="text-black me-4" to="/#">
-                                    FAQ
-                                </Link>
-                                <Link className="text-black" to="/#">
-                                    Buy Protction
-                                </Link>
+                            <div className="carousel-item">
+                                <div className="text-center">
+                                    <Link className="text-black me-4" to="/FAQ">
+                                        FAQ
+                                    </Link>
+                                    <Link className="text-black" to="/Buyer-Protection">
+                                        Buy Protction
+                                    </Link>
+                                </div>
                             </div>
-                            {/* <div className={`${links === false ? "d-none" : "d-flex"} nav-links position-absolute`}>
-                                <div className="brands">
-                                    <span>Brands</span>
-                                    <ul>
-                                        <li>
-                                            <a href="/#" className="text-black">
-                                                Rolex
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/#" className="text-black">
-                                                Patek Philippe
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/#" className="text-black">
-                                                Breitling
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/#" className="text-black">
-                                                Cartier
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/#" className="text-black">
-                                                IWC
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/#" className="text-black">
-                                                Omega
-                                            </a>
-                                        </li>
-                                        <li className="last text-decoration-underline">
-                                            <a href="/#" className="text-black">
-                                                Display all
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="categories">
-                                    <span>Categories</span>
-                                    <li>
-                                        <a href="/#" className="text-black">
-                                            Men's Watches
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="/#" className="text-black">
-                                            Women's Watches
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="/#" className="text-black text-decoration-underline">
-                                            Display all
-                                        </a>
-                                    </li>
-                                </div>
-                                <div className="services">
-                                    <span>Services</span>
-                                    <li>
-                                        <a href="/#" className="text-black">
-                                            Watch Collection
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="/#" className="text-black">
-                                            Watch Explorer
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="/#" className="text-black">
-                                            Dealer Search
-                                        </a>
-                                    </li>
-                                </div>
-                            </div> */}
-                        </Carousel.Item>
-                    </Carousel>
+                        </div>
+                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                            <i>
+                                <SlArrowLeft />
+                            </i>
+                        </button>
+                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                            <i>
+                                <SlArrowRight />
+                            </i>
+                        </button>
+                    </div>
                     <ul className="nav-bar d-flex align-items-center position-relative d-none">
                         <li>
                             <Link
                                 className="text-black"
-                                to={""}
+                                to=""
                                 onClick={() => {
                                     setLinks(!links);
                                 }}
@@ -162,11 +93,6 @@ function Header() {
                         <li>
                             <Link className="text-black" to={"/watch-collection"}>
                                 Watch Collection
-                            </Link>
-                        </li>
-                        <li>
-                            <Link className="text-black" to="/magazine">
-                                Magazine
                             </Link>
                         </li>
                         <li>

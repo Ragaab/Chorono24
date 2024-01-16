@@ -132,8 +132,9 @@
     width: 100%;
 }
 
-.header .links ul {
-    margin-right: 100px !important;
+.header .links .brands,
+.header .links .categories {
+    margin-right: 100px;
 }
 
 .header .links li {
@@ -191,13 +192,11 @@
 .seconde-links .carousel-control-prev,
 .seconde-links .carousel-control-next {
     opacity: 1 !important;
-    width: 20px !important;
 }
 
-.seconde-links .carousel-control-next span,
-.seconde-links .carousel-control-prev span {
-    height: 25px !important;
-    background-color: #c39052;
+.carousel button i {
+    font-size: 17px;
+    color: var(--main-color);
 }
 
 .seconde-links {
@@ -213,6 +212,10 @@
 @media (max-width: 768px) {
     .seconde-links {
         display: flex !important;
+    }
+    .header .links .brands,
+    .header .links .categories {
+        margin-right: 40px;
     }
 }
 

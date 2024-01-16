@@ -10,7 +10,11 @@
     text-align: center;
 }
 
-.popular-brands .my-container a {
+.popular-brands .my-container .row a {
+    color: var(--secondary-color);
+}
+
+.popular-brands .my-container > a {
     background-color: transparent;
     color: black;
     padding: 10px 50px;

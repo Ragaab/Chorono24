@@ -97,3 +97,12 @@
 .contentt .collapse .card .card-body {
     background-color: white !important;
 }
+
+@media (max-width: 767px) {
+    .faq .sidebar {
+        display: none;
+    }
+    .faq .content .info-box h2 {
+        font-size: 30px;
+    }
+}

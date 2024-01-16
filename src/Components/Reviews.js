@@ -1,6 +1,5 @@
 import "../Css/Reviews.css";
 import { IoStar } from "react-icons/io5";
-import Carousel from "react-bootstrap/Carousel";
 import trustPilot from "../images/trustpilot-logo-light.svg";
 
 function Reviews() {

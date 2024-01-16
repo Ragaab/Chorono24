@@ -9,7 +9,7 @@ function FAQ() {
             <div className="faq">
                 <div className="my-container">
                     <div className="row">
-                        <div className="col-3">
+                        <div className="col-lg-3 col-md-3 col-sm-3 col-0">
                             <div className="sidebar">
                                 <a href="#/">Overview</a>
                                 <ul>
@@ -56,7 +56,7 @@ function FAQ() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-9">
+                        <div className="col-lg-9 col-md-9 col-sm-9 col-12">
                             <div className="content">
                                 <div className="info-box">
                                     <h2 className="mb-4">Searching for Watches on Chrono24</h2>

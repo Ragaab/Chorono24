@@ -10,7 +10,7 @@ function Breitling({ data: { Breitling } }) {
             <Header />
             <div className="watches">
                 <div className="my-container">
-                    <h1 className="mt-4 mb-2">We've found {Breitling.length} results for "Rolex"</h1>
+                    <h1 className="mt-4 mb-2">We've found {Breitling.length} results for "Breitling"</h1>
                     <span className="d-flex align-items-center mb-5">
                         <MdOutlineHome className="home fs-5" /> <MdKeyboardArrowRight className="mx-1" /> Rolex Watches
                     </span>
