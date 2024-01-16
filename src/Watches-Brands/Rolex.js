@@ -17,8 +17,8 @@ function Rolex({ data: { watches } }) {
                     <div className="row">
                         {watches.map((watch) => {
                             return (
-                                <div className="col-xl-3 col-lg-4 col-md-4 col-sm-12">
-                                    <Link to={`/Rolex/${watch.id}`} className="watch d-block text-black" key={watch.id}>
+                                <div className="col-xl-3 col-lg-4 col-md-4 col-sm-12" key={watch.id}>
+                                    <Link to={`/Rolex/${watch.id}`} className="watch d-block text-black">
                                         <img src={watch.image} alt="" />
                                         <p>{watch.title}</p>
                                         <p>{watch.description}</p>
